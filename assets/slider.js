@@ -25,4 +25,10 @@ $(document).ready(function(){
 
     $(".owl-prev").html('<img src="./assets/icons/left-arrow-green.svg" />')
     $(".owl-next").html('<img src="./assets/icons/right-arrow-green.svg" />')
+
+   
+    AOS.init();
+   
 });
+
+

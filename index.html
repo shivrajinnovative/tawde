@@ -7,6 +7,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <link rel="stylesheet" href="./assets/style.css">
 </head>
 <body>
@@ -28,7 +30,7 @@
                 <a class="nav-link text-uppercase" href="#">About us</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-uppercase" href="#">Tax Accountant</a>
+                <a class="nav-link text-uppercase" href="./tax-accountant.html">Tax Accountant</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link text-uppercase" href="#">Migration Services</a>
@@ -48,17 +50,17 @@
       </nav>
 
 
-      <header>
+      <header class="overflow-hidden">
         <div class="container py-3 py-md-5">
             <div class="row">
-                <div class="col-lg-6">
-                    <h1 class="display-3 fw-medium pt-md-4  mb-3 mb-md-5 text-light-green " ><span class="text-dark-green" >Trusted Advisors</span>
+                <div class="col-lg-6" >
+                    <h1 class="display-3 fw-medium pt-md-4  mb-3 mb-md-5 text-light-green drop-text" ><span class="text-dark-green" >Trusted Advisors</span>
                         <span class="text-green">
                           for
                         </span> Your Tax, Migration, IT, & Loan Needs!</h1>
-                        <button class="btn btn-success py-2 mt-lg-5 shadow px-4 rounded-pill" >Schedule an appointment <img src="./assets/icons/right-arrow.svg" class="ms-2" alt=""> </button>
-                      </div>
-                      <div class="col-lg-6 my-5 my-lg-0">
+                    <button class="btn btn-success py-2 mt-lg-5 shadow px-4 rounded-pill" >Schedule an appointment <img src="./assets/icons/right-arrow.svg" class="ms-2" alt=""> </button>
+                </div>
+                      <div class="col-lg-6 my-5 my-lg-0" data-aos="fade-left">
                         <form action="" class="bg-white shadow col-10 mx-auto  p-4 px-md-5 rounded-3" >
                           <h2 class="fs-3 mb-3 py-3" >Get a <span class="text-warning" >Quote</span> Today </h2>
                           <div class="row">
@@ -113,7 +115,7 @@
       </header>
     
 
-      <section class="container about-bg py-3 py-md-5">
+      <section class="container about-bg py-3 py-md-5" data-aos="fade-up" data-aos-delay="200">
         <div class="row">
           <div class="col-lg-6">
             <div class="text-end pe-md-5" >
@@ -135,21 +137,21 @@
 
 
 
-    <section class="bg-green-gray" >
+    <section class="bg-green-gray overflow-hidden" >
       <div class="container py-3 py-md-5">
         <div class="row">
-          <div class="col-lg-6 py-3 py-md-5">
+          <div class="col-lg-6 py-3 py-md-5"  data-aos="fade-right">
             <h4 class="text-uppercase text-dark-green text-decoration-underline">Tax accountant services</h4>
             <h1 class="display-5 fw-medium my-3 my-md-4 text-black"  >Services and Solutions for Your Small Business</h1>
             <p>Tawade Group Tax Accountant is one of the reputed accounting firms in Melbourne. We have earned this position by continuously offering innovation and leading edge solutions to our clients.</p>
             <button class="btn btn-success rounded-pill px-2 px-md-4 mt-3 mt-md-5"  >Everything we can do for you <img src="./assets/icons/right-arrow.svg" class="ms-2" alt=""> </button>
           </div>
-          <div class="col-lg-6 text-center">
+          <div class="col-lg-6 text-center"  data-aos="fade-left">
             <img src="./assets/images/service.png" class="img-fluid col-8 pt-4 " alt="">
           </div>
         </div>
         <div class="row  py-3 py-md-5">
-          <div class="col-md-6 col-lg-4 my-3">
+          <div class="col-md-6 col-lg-4 my-3" data-aos="fade-up">
             <div class="bg-white h-100 position-relative rounded-5 shadow m-2 p-3 p-md-5">
               <img src="./assets/icons/company.svg" class="mb-3" width="50px" alt="">
               <h2 class="text-success fs-3" >Company Setup</h2>
@@ -157,7 +159,7 @@
               <button class="btn-outline-warning position-absolute w-100  btn bottom-0 mb-4 text-black rounded-pill"  >Learn More  <img src="./assets/icons/right-arrow-black.svg" class="ms-2" alt="">  </button>
             </div>
           </div>
-          <div class="col-md-6 col-lg-4 my-3">
+          <div class="col-md-6 col-lg-4 my-3" data-aos="fade-up">
             <div class="bg-white h-100 position-relative rounded-5 shadow m-2 p-3 p-md-5">
               <img src="./assets/icons/tax.svg" class="mb-3" width="50px" alt="">
               <h2 class="text-success fs-3" >Tax & Compliance</h2>
@@ -165,7 +167,7 @@
               <button class="btn-outline-warning position-absolute w-100 btn bottom-0 mb-4 text-black rounded-pill"  >Learn More  <img src="./assets/icons/right-arrow-black.svg" class="ms-2" alt="">  </button>
             </div>
           </div>
-          <div class="col-md-6 col-lg-4 my-3">
+          <div class="col-md-6 col-lg-4 my-3" data-aos="fade-up">
             <div class="bg-white h-100 position-relative rounded-5 shadow m-2 p-3 p-md-5">
               <img src="./assets/icons/book-keeping.svg" class="mb-3" width="50px" alt="">
               <h2 class="text-success fs-3" >Book Keeping</h2>
@@ -181,7 +183,7 @@
     </section>
 
 
-    <section>
+    <section  data-aos="fade-up" >
         <div class="container overflow-hidden py-3 py-md-5">
             <h3 class="text-center text-dark-green text-decoration-underline ">Migration Services</h3>
             <h2 class="display-5 fw-normal py-3 text-center">Stratecore Migration Consultants</h2>
@@ -237,7 +239,7 @@
     </section>
 
 
-    <section class="bg-success text-white text-center" >
+    <section class="bg-success text-white text-center" data-aos="fade-up" >
         <div class="container py-3 py-md-5 ">
             <div class="row">
                 <div class="col-md-6 col-lg-3">
@@ -274,13 +276,13 @@
 
 
 
-    <section class="bg-light-green py-3 py-md-5">
+    <section class="bg-light-green py-3 py-md-5 overflow-hidden"  data-aos="fade-up">
       <div class="container py-3 py-md-5">
       <div class="row">
-        <div class="col-lg-6 text-center">
+        <div class="col-lg-6 text-center"  data-aos="fade-right">
           <img src="./assets/images/it-service.png" class="col-10" alt="">
         </div>
-        <div class="col-lg-6">
+        <div class="col-lg-6"  data-aos="fade-left">
           <h2 class="fs-4 text-decoration-underline text-uppercase text-dark-green ">one stop IT services</h2>
           <h1 class="display-5 fw-medium   col-lg- py-3" >We Serve a Variety of <span class="text-danger" >IT Services</span> Nationwide.</h1>
           <p class="col-lg-10 text-black " ><b>Innovative Web Solutions</b> founded in 2005, we are pioneers in Web solutions for last 15 years now, based at Hyderabad and Navi Mumbai City of India.</p>
@@ -372,7 +374,7 @@
     </section>
 
 
-    <section>
+    <section data-aos="fade-up">
       <div class="container py-3 py-md-5">
         <h2 class="text-center text-dark-green text-decoration-underline fs-5 text-uppercase" >all loans</h2>
         <h3 class="text-center col-lg-8 fw-medium mx-auto display-5" >Your Trustworthy Partner for All Your Loan Needs!</h3>
@@ -485,10 +487,13 @@
       
     </footer>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  
     <script src="./assets/slider.js"></script>
   </body>
 </html>
