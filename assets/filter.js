@@ -12,5 +12,6 @@ $(document).ready(function() {
  
         $(".filterContent>div").addClass("d-none");
         $(`.${filterId}`).removeClass("d-none");
+        document.querySelector("#contentSection").scrollIntoView({ behavior: 'smooth' });
     });
 });

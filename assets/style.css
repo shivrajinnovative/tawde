@@ -177,3 +177,16 @@ header.header{
     bottom: 5px;
     z-index: -1;
 }
+.accordion{
+--bs-accordion-bg:none !important
+}
+.accordion-item {
+    border: none;
+}
+.accordion-button:not(.collapsed) {
+    background-color: transparent !important;
+    outline: none !important;
+}
+.accordion-button:focus {
+    box-shadow:none !important
+}
