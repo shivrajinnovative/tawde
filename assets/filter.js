@@ -12,6 +12,10 @@ $(document).ready(function() {
  
         $(".filterContent>div").addClass("d-none");
         $(`.${filterId}`).removeClass("d-none");
-        document.querySelector("#contentSection").scrollIntoView({ behavior: 'smooth' });
+        document.querySelector("html").scrollIntoView({ behavior: 'smooth' });
+        const imageName=filterId.split("-")[0]
+        if(imageName!='filter'){
+            $("header.header").css("background-image",`url('./assets/bg/immigration_${imageName}.png')`)
+        }
     });
 });
