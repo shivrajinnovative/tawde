@@ -202,3 +202,66 @@ p,li{
 .text-center p{
     text-align: center !important;
 }
+
+
+
+.contactPage .icons{
+    height: 40px;
+    width: 40px;
+    font-size: 24px;
+    line-height: 45px;
+    border-radius: 50%;
+    display: block;
+    text-align: center;
+}
+.contactPage .opacity-2{
+    opacity: 0.03;
+}
+.contactPage .big-icon{
+    font-size: 120px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.it-card{
+    height: 300px;
+    width: 300px;
+    position: relative;
+    border: 2px dashed #00502B;
+    margin: 50px 0;
+    cursor: pointer;
+}
+.it-card:hover{
+    background-color: #FCFFF0;
+}
+.it-card span{
+    display: block;
+    background-color: #00502B;
+    height: 70px;
+    width: 70px;
+    line-height: 70px;
+    text-align: center;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -30px;
+}
+.it-card img{
+    height: 40px;
+    width: 40px;
+}
+.it-card h4{
+    height: 100px;
+}
+.it-card *{
+    text-align: center !important;
+}
