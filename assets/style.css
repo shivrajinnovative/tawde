@@ -180,7 +180,7 @@ header.header{
     z-index: -1;
 }
 .accordion{
---bs-accordion-bg:none !important
+    --bs-accordion-bg:none !important
 }
 .accordion-item {
     border: none;
