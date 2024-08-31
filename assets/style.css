@@ -39,7 +39,7 @@ header{
     background-position: center;
 }
 .navbar-brand img{
-    width:70px
+    width:90px
 }
 .nav-link{
     font-weight: 600;
@@ -47,6 +47,9 @@ header{
 }
 .nav-link.active{
     color: #00502B !important;
+    font-weight: bold !important;
+    text-decoration: underline;
+    text-underline-offset: 5px;
 }
 .form-floating,.form-control,.form-select {
     background-color: #EAF0F1;
